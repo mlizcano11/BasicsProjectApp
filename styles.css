@@ -1,0 +1,63 @@
+body {
+    background-color:white;
+}
+
+.weather-app {
+    background: white;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 18 px;
+    padding: 30px;
+}
+/* Margin around the element */
+.box-1 {
+    margin: 10px;
+  }
+  
+  /* Margin left only */
+  .box-2 {
+    margin-left: 10px;
+  }
+  
+  /* 10px margin on top and bottom, 5px on the sides */
+  .box-3 {
+    margin: 10px 5px;
+  }
+  
+  /* 20px margin top, 15px margin right, 10px margin bottom and 5px margin left */
+  .box-4 {
+    margin: 20px 15px 10px 5px;
+  }
+
+
+  h1 {
+    line-height: 28px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .heading {
+    position: relative;
+    top: -10px;
+    left: 20px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-weight: normal;
+  }
+  
+  p {
+    font-weight: 700;
+  }
+  
+  a {
+    font-weight: 100;
+  }
