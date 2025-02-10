@@ -1,15 +1,18 @@
 body {
-    background-color:white;
+    background-color: white;
+    font-family: "Caveat", serif;
 }
 
 .weather-app {
     background: white;
     max-width: 600px;
     margin: 50px auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    box-shadow: 0 30px 50px rgba(106, 92, 150, 0.08);
     border-radius: 18 px;
     padding: 30px;
 }
+
+
 /* Margin around the element */
 .box-1 {
     margin: 10px;
