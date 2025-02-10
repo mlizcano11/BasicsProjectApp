@@ -34,6 +34,53 @@ header {
     color: white;
 }
 
+.main {
+  padding: 30px 0;
+
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+
+}
+
+.weather-app-details {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
+}
+.weather-app-details strong {
+  color: purple
+}
+
+.weather-app-container {
+  display: flex;
+}
+
+.weather-app-temp {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.weather-app-icon {
+  font-size: 48px;
+  margin-top: 22px;
+}
+
+.weather-app-unit {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
 .project {
   font-size: 18px;
   text-align: center;
@@ -46,54 +93,5 @@ text-align: center;
 font-size: 10px;
 
 }
-/* Margin around the element */
-.box-1 {
-    margin: 10px;
-  }
-  
-  /* Margin left only */
-  .box-2 {
-    margin-left: 10px;
-  }
-  
-  /* 10px margin on top and bottom, 5px on the sides */
-  .box-3 {
-    margin: 10px 5px;
-  }
-  
-  /* 20px margin top, 15px margin right, 10px margin bottom and 5px margin left */
-  .box-4 {
-    margin: 20px 15px 10px 5px;
-  }
 
-
-  h1 {
-    line-height: 28px;
-  }
   
-  p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-
-  .heading {
-    position: relative;
-    top: -10px;
-    left: 20px;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-weight: normal;
-  }
-  
-  p {
-    font-weight: 700;
-  }
-  
-  a {
-    font-weight: 100;
-  }
