@@ -56,10 +56,36 @@ function handleSearchSubmit(event) {
     let searchInput = document.querySelector("#search-form-input");
     let cityElement = document.querySelector("#city");
     cityElement.innerHTML = searchInput.value;
-    searchCity(searchInput.value)
+    searchCity(searchInput.value);
 }
-let searchFormElement =document.querySelector("#search-form");
+
+
+function displayForecast() {
+    let days = ["Sun", "Mon", "Tues", "Wed", "Thu"];
+    let forecastHtml = "";
+
+    days.forEach(function (day) {
+        forecastHtml = 
+            forecastHtml +
+            `
+            <div class="weather-forecast-day"> 
+                <div class="weather-forecast-date"> ${day} </div>
+                <div class="weather-forecast-icon">🌤️ </div>    
+                <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-high"> 
+                <strong>55°F</strong></div>
+                <div class="weahter-forecast-low"> 48°F</div>
+                </div>
+            </div>
+            `;
+    });
+
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = forecastHtml;
+}
+
+let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Los Angeles");
-
+displayForecast();
